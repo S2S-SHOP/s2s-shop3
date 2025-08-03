@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>S2S SHOP - Boutique Mode</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Montserrat', sans-serif;
+      background: #fefefe;
+      color: #333;
+    }
+    header {
+      background: linear-gradient(to right, #f12711, #f5af19);
+      padding: 2rem;
+      text-align: center;
+    }
+    header h1 {
+      font-size: 3rem;
+      margin-bottom: 0.5rem;
+      color: black;
+    }
+    header p {
+      font-size: 1.2rem;
+      color: white;
+    }
+    nav {
+      background: #222;
+      display: flex;
+      justify-content: center;
+      padding: 0.8rem;
+    }
+    nav a {
+      color: #fff;
+      margin: 0 1rem;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .hero {
+      background: url('https://source.unsplash.com/1600x600/?fashion,clothing-store') center/cover no-repeat;
+      height: 350px;
+    }
+    .section-title {
+      text-align: center;
+      margin: 2rem 0 1rem;
+      font-size: 2rem;
+      color: #f12711;
+    }
+    .products {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 1.5rem;
+      padding: 2rem;
+    }
+    .product {
+      background: white;
+      border-radius: 10px;
+      box-shadow: 0 0 15px rgba(0,0,0,0.1);
+      overflow: hidden;
+      text-align: center;
+      transition: transform 0.2s;
+    }
+    .product:hover { transform: translateY(-5px); }
+    .product img {
+      width: 100%;
+      height: 250px;
+      object-fit: cover;
+    }
+    .product h3 {
+      color: #f12711;
+      margin: 0.8rem 0 0.4rem;
+    }
+    .product p {
+      color: #555;
+      margin-bottom: 0.5rem;
+    }
+    .product a button {
+      background: #f12711;
+      color: white;
+      border: none;
+      padding: 0.6rem 1.2rem;
+      margin-bottom: 1rem;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    .video-section {
+      padding: 2rem;
+      background: #fff9f2;
+      text-align: center;
+    }
+    .video-section iframe {
+      width: 80%;
+      height: 400px;
+      max-width: 700px;
+      border-radius: 10px;
+      border: none;
+    }
+    .contact {
+      background: #f12711;
+      color: white;
+      padding: 2rem;
+      text-align: center;
+    }
+    .contact a {
+      color: white;
+      margin: 0 1rem;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    footer {
+      text-align: center;
+      padding: 1rem;
+      background: #222;
+      color: white;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>S2S SHOP</h1>
+  <p>S'HABILLER DE MANIÈRE RESPONSABLE</p>
+</header>
+
+<nav>
+  <a href="#produits">Produits</a>
+  <a href="#videos">Vidéos</a>
+  <a href="#contact">Contact</a>
+</nav>
+
+<div class="hero"></div>
+
+<h2 class="section-title" id="produits">Nos Articles</h2>
+<div class="products">
+  
+    <div class="product">
+        <img src="https://source.unsplash.com/500x500/?jeans" alt="Pantalon Jean">
+        <h3>Pantalon Jean</h3>
+        <p>15,000 FCFA</p>
+        
+        <a href="https://wa.me/221779246535?text=Bonjour,%20je%20veux%20commander%20Pantalon%20Jean"><button>Commander sur WhatsApp</button></a>
+    </div>
+    
+    <div class="product">
+        <img src="https://source.unsplash.com/500x500/?khaki-pants" alt="Pantalon Kaki">
+        <h3>Pantalon Kaki</h3>
+        <p>15,000 FCFA</p>
+        <p><a href="https://www.instagram.com/p/DMi1ECBtNMi/?igsh=MzRlODBiNWFlZA==" target="_blank">Voir sur Instagram</a></p>
+        <a href="https://wa.me/221779246535?text=Bonjour,%20je%20veux%20commander%20Pantalon%20Kaki"><button>Commander sur WhatsApp</button></a>
+    </div>
+    
+    <div class="product">
+        <img src="https://source.unsplash.com/500x500/?linen-pants" alt="Pantalon Lin">
+        <h3>Pantalon Lin</h3>
+        <p>15,000 FCFA</p>
+        
+        <a href="https://wa.me/221779246535?text=Bonjour,%20je%20veux%20commander%20Pantalon%20Lin"><button>Commander sur WhatsApp</button></a>
+    </div>
+    
+    <div class="product">
+        <img src="https://source.unsplash.com/500x500/?cotton-pants" alt="Pantalon Coton">
+        <h3>Pantalon Coton</h3>
+        <p>15,000 FCFA</p>
+        <p><a href="https://www.instagram.com/reel/DMfKXf2tNFd/?igsh=MzRlODBiNWFlZA==" target="_blank">Voir sur Instagram</a></p>
+        <a href="https://wa.me/221779246535?text=Bonjour,%20je%20veux%20commander%20Pantalon%20Coton"><button>Commander sur WhatsApp</button></a>
+    </div>
+    
+    <div class="product">
+        <img src="https://source.unsplash.com/500x500/?cargo-pants" alt="Pantalon Cargo">
+        <h3>Pantalon Cargo</h3>
+        <p>15,000 FCFA</p>
+        
+        <a href="https://wa.me/221779246535?text=Bonjour,%20je%20veux%20commander%20Pantalon%20Cargo"><button>Commander sur WhatsApp</button></a>
+    </div>
+    
+    <div class="product">
+        <img src="https://source.unsplash.com/500x500/?shirt" alt="Chemise Ralph">
+        <h3>Chemise Ralph</h3>
+        <p>15,000 FCFA</p>
+        
+        <a href="https://wa.me/221779246535?text=Bonjour,%20je%20veux%20commander%20Chemise%20Ralph"><button>Commander sur WhatsApp</button></a>
+    </div>
+    
+    <div class="product">
+        <img src="https://source.unsplash.com/500x500/?long-sleeve-shirt" alt="Chemise manches courtes/longues">
+        <h3>Chemise manches courtes/longues</h3>
+        <p>15,000 FCFA</p>
+        
+        <a href="https://wa.me/221779246535?text=Bonjour,%20je%20veux%20commander%20Chemise%20manches%20courtes/longues"><button>Commander sur WhatsApp</button></a>
+    </div>
+    
+    <div class="product">
+    <img src="https://source.unsplash.com/500x500/?polo" alt="Polo de marque">
+    <h3>Polo de marque</h3>
+    <p>15,000 FCFA</p>
+    <video controls width="100%">
+      <source src="video_polo.mp4" type="video/mp4">
+      Votre navigateur ne supporte pas la vidéo.
+    </video>
+    <a href="https://wa.me/221779246535?text=Bonjour,%20je%20veux%20commander%20Polo%20de%20marque"><button>Commander sur WhatsApp</button></a>
+</div>
+    
+    <div class="product">
+        <img src="https://source.unsplash.com/500x500/?lacoste" alt="Lacoste">
+        <h3>Lacoste</h3>
+        <p>15,000 FCFA</p>
+        
+        <a href="https://wa.me/221779246535?text=Bonjour,%20je%20veux%20commander%20Lacoste"><button>Commander sur WhatsApp</button></a>
+    </div>
+    
+    <div class="product">
+        <img src="https://source.unsplash.com/500x500/?tshirt-branded" alt="Tee-shirt de marque">
+        <h3>Tee-shirt de marque</h3>
+        <p>15,000 FCFA</p>
+        <video controls width="100%">
+          <source src="video_tshirt.mp4" type="video/mp4">
+          Votre navigateur ne supporte pas la vidéo.
+        </video>
+        
+        <a href="https://wa.me/221779246535?text=Bonjour,%20je%20veux%20commander%20Tee-shirt%20de%20marque"><button>Commander sur WhatsApp</button></a>
+    </div>
+    
+    <div class="product">
+        <img src="https://source.unsplash.com/500x500/?tshirt" alt="Tee-shirt simple">
+        <h3>Tee-shirt simple</h3>
+        <p>10,000 FCFA</p>
+        
+        <a href="https://wa.me/221779246535?text=Bonjour,%20je%20veux%20commander%20Tee-shirt%20simple"><button>Commander sur WhatsApp</button></a>
+    </div>
+    
+    <div class="product">
+        <img src="https://source.unsplash.com/500x500/?sandals" alt="Chaussure nu-pied">
+        <h3>Chaussure nu-pied</h3>
+        <p>25,000 FCFA</p>
+        
+        <a href="https://wa.me/221779246535?text=Bonjour,%20je%20veux%20commander%20Chaussure%20nu-pied"><button>Commander sur WhatsApp</button></a>
+    </div>
+    
+    <div class="product">
+        <img src="https://source.unsplash.com/500x500/?moccasin" alt="Mocassin">
+        <h3>Mocassin</h3>
+        <p>35,000 FCFA</p>
+        
+        <a href="https://wa.me/221779246535?text=Bonjour,%20je%20veux%20commander%20Mocassin"><button>Commander sur WhatsApp</button></a>
+    </div>
+    
+    <div class="product">
+        <img src="https://source.unsplash.com/500x500/?sneakers" alt="Sneakers">
+        <h3>Sneakers</h3>
+        <p>35,000 FCFA</p>
+        
+        <a href="https://wa.me/221779246535?text=Bonjour,%20je%20veux%20commander%20Sneakers"><button>Commander sur WhatsApp</button></a>
+    </div>
+    
+    <div class="product">
+        <img src="https://source.unsplash.com/500x500/?belt" alt="Ceinture">
+        <h3>Ceinture</h3>
+        <p>10,000 FCFA</p>
+        
+        <a href="https://wa.me/221779246535?text=Bonjour,%20je%20veux%20commander%20Ceinture"><button>Commander sur WhatsApp</button></a>
+    </div>
+    
+</div>
+
+<section class="video-section" id="videos">
+  <h2 class="section-title">Vidéos de Produits</h2>
+  <iframe src="https://www.youtube.com/embed/YOUR_VIDEO_ID" allowfullscreen></iframe>
+</section>
+
+<section class="contact" id="contact">
+  <h2>Contact & Réseaux</h2>
+  <p>📞 <a href="tel:+221779246535">+221 77 924 65 35</a></p>
+  <p>
+    <a href="https://wa.me/221779246535">WhatsApp</a> |
+    <a href="https://instagram.com/s2s">Instagram</a> |
+    <a href="https://facebook.com/s2s">Facebook</a> |
+    <a href="https://t.me/s2s">Telegram</a> |
+    <a href="https://tiktok.com/@s2s">TikTok</a> |
+    <a href="https://youtube.com/@s2s">YouTube</a>
+  </p>
+  <p>📍 S2S est situé à Yoff, route de l’aéroport près de l’hôpital Philippe Maguilène Senghor.</p>
+</section>
+
+<footer>
+  &copy; 2025 S2S SHOP - Tous droits réservés
+</footer>
+
+</body>
+</html>
